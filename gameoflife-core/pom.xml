@@ -11,6 +11,23 @@
     <packaging>jar</packaging>
     <name>gameoflife-core</name>
     <url>${HUDSON_URL}</url>
+<build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>3.6</version>
+        <configuration>
+          <reportPlugins>
+            <plugin>
+            </plugin>
+            <plugin>
+            </plugin>
+          <reportPlugins>
+        </configuration>
+      </plugin>
+    <plugins>
+  </build>
       <reporting>
         <plugins>
             <plugin>
